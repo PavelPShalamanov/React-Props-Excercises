@@ -1,0 +1,31 @@
+.stats {
+  margin-top: 40px;
+  padding: 20px;
+  border-top: 1px solid #eee;
+}
+
+.stats h3 {
+  margin-bottom: 10px;
+}
+
+.stats-cards {
+  display: flex;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.stats-cards > div {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.best {
+  border: 2px solid #2ecc71;
+  background: #f3fff7;
+}
+
+.worst {
+  border: 2px solid #e74c3c;
+  background: #fff5f5;
+}

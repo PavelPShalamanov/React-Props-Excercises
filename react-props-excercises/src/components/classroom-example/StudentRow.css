@@ -1,0 +1,45 @@
+.student-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  padding: 12px;
+  border-radius: 10px;
+  background: #fafafa;
+  transition: background 0.2s ease;
+}
+
+.student-row:hover {
+  background: #f2f2f2;
+}
+
+.student-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.student-actions button {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: background 0.2s ease;
+}
+
+.student-actions button:first-child {
+  background: #f1c40f;
+}
+
+.student-actions button:first-child:hover {
+  background: #d4ac0d;
+}
+
+.student-actions button:last-child {
+  background: #e74c3c;
+  color: white;
+}
+
+.student-actions button:last-child:hover {
+  background: #c0392b;
+}

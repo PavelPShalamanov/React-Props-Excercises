@@ -1,0 +1,28 @@
+.classroom {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  font-family: Arial, sans-serif;
+}
+
+.classroom h2 {
+  margin-bottom: 20px;
+}
+
+.sort-button {
+  margin: 20px 0;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  background: #3498db;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.sort-button:hover {
+  background: #2980b9;
+}

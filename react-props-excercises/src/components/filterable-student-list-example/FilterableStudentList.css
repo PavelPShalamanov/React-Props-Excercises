@@ -1,0 +1,32 @@
+.student-list-container {
+  width: 600px;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 4px rgba(52, 152, 219, 0.4);
+}
+
+.student-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.no-results {
+  font-style: italic;
+  color: #777;
+}

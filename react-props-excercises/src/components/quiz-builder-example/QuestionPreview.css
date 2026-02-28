@@ -1,0 +1,11 @@
+.question-preview {
+  border: 1px solid #eee;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background: #fff;
+}
+
+.option-preview {
+  margin-left: 12px;
+}
