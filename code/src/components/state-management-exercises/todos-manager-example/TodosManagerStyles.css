@@ -1,0 +1,156 @@
+/* Container for the whole page */
+.todo-manager {
+  max-width: 400px;
+  margin: 2.5rem auto;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+/* Standardized todo item */
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  margin-bottom: 0.5rem;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+.todo-item:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-1px);
+  background-color: #f9fafb;
+}
+
+/* Completed todo */
+.todo-item.completed span {
+  text-decoration: line-through;
+  color: #9ca3af;
+}
+
+/* The text inside the label (to truncate) */
+.todo-item span {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Tooltip on hover for full text */
+.todo-item span:hover::after {
+  content: attr(data-text);
+  position: absolute;
+  background: #1f2937;
+  color: #fff;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  white-space: normal;
+  width: max-content;
+  max-width: 200px;
+  top: -1.5rem;
+  left: 0;
+  z-index: 10;
+}
+
+/* Delete button */
+.todo-item button {
+  margin-left: 0.5rem;
+  font-weight: bold;
+  color: #ef4444;
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.todo-item button:hover {
+  color: #b91c1c;
+}
+
+/* Add todo input */
+.add-todo-input {
+  flex: 1;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  border: 1px solid #cbd5e1;
+}
+
+/* Add button */
+.add-todo-button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: #3b82f6;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.add-todo-button:hover {
+  background-color: #2563eb;
+}
+
+/* Search input */
+.search-input {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  border: 1px solid #cbd5e1;
+  margin-bottom: 0.5rem;
+}
+
+/* Filter buttons */
+.filter-buttons {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.filter-buttons button {
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.5rem;
+  border: 1px solid #cbd5e1;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.filter-buttons button.active {
+  background-color: #3b82f6;
+  color: white;
+  border-color: #3b82f6;
+}
+
+.filter-buttons button:hover:not(.active) {
+  background-color: #e5e7eb;
+}
+
+/* Stats container */
+.stats {
+  margin-top: 1rem;
+}
+
+/* Progress bar background */
+.progress-bar {
+  background-color: #e5e7eb;
+  border-radius: 0.5rem;
+  height: 12px;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Progress bar fill */
+.progress-bar-fill {
+  background-color: #10b981; /* nice green */
+  height: 100%;
+  border-radius: 0.5rem 0 0 0.5rem;
+  transition: width 0.3s ease;
+}
