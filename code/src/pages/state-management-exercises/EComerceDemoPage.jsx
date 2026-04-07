@@ -1,6 +1,6 @@
 import { useReducer } from "react";
-import { ThemeProvider } from "../../context/EComerceThemeContext";
-import { AuthProvider } from "../../context/EComerceAuthContext";
+import { ThemeProvider } from "../../context/state-mamangement-exercise-contexts/EComerceThemeContext";
+import { AuthProvider } from "../../context/state-mamangement-exercise-contexts/EComerceAuthContext";
 
 import cartReducer from "../../components/state-management-exercises/e-comerce-example/CartReducer";
 import NavBar from "../../components/state-management-exercises/e-comerce-example/NavBar";

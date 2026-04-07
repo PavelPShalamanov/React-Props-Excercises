@@ -1,6 +1,6 @@
-import { useAuth } from "../../../context/AuthContext";
-import { useLang } from "../../../context/LangContext";
-import { useTheme } from "../../../context/ThemeContext";
+import { useAuth } from "../../../context/state-mamangement-exercise-contexts/AuthContext";
+import { useLang } from "../../../context/state-mamangement-exercise-contexts/LangContext";
+import { useTheme } from "../../../context/state-mamangement-exercise-contexts/ThemeContext";
 import { useState } from "react";
 
 export default function MainContent() {

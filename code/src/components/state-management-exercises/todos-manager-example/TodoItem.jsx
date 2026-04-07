@@ -1,4 +1,4 @@
-import { useTodoStore } from "../../../store/todoStore";
+import { useTodoStore } from "../../../store/state-mamangement-exercise-stores/todoStore";
 
 export default function TodoItem({ todo }) {
   const toggleTodo = useTodoStore((s) => s.toggleTodo);

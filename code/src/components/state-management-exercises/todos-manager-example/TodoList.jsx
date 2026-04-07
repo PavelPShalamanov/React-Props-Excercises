@@ -1,5 +1,5 @@
 // TodoList.jsx
-import { useTodoStore } from "../../../store/todoStore";
+import { useTodoStore } from "../../../store/state-mamangement-exercise-stores/todoStore";
 import TodoItem from "./TodoItem";
 import { useMemo } from "react";
 

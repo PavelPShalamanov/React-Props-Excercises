@@ -1,4 +1,4 @@
-import { ThemeProvider } from "../../context/ThemeContext";
+import { ThemeProvider } from "../../context/state-mamangement-exercise-contexts/ThemeContext";
 import Header from "../../components/state-management-exercises/theme-example/Header";
 import QuizCard from "../../components/state-management-exercises/theme-example/QuizCard";
 import Footer from "../../components/state-management-exercises/theme-example/Footer";

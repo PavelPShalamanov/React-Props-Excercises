@@ -1,4 +1,4 @@
-import { useNotifications } from "../../../context/NotificationContext";
+import { useNotifications } from "../../../context/state-mamangement-exercise-contexts/NotificationContext";
 
 export default function NotificationCount() {
   const { notifications } = useNotifications();

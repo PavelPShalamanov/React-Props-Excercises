@@ -1,5 +1,5 @@
-import { useLang } from "../../../context/LangContext";
-import { useTheme } from "../../../context/ThemeContext";
+import { useLang } from "../../../context/state-mamangement-exercise-contexts/LangContext";
+import { useTheme } from "../../../context/state-mamangement-exercise-contexts/ThemeContext";
 
 export default function Sidebar() {
   const { t } = useLang();

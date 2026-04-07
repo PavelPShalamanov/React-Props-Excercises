@@ -22,7 +22,19 @@ export const categories = [
       { path: "/state-management/shopping-cart-demo-page", title: "Shopping cart" },
       { path: "/state-management/dashboard-demo-page", title: "Dashboard" },
       { path: "/state-management/todos-manager-demo-page", title: "Todos manager" },
-      { path: "state-management/e-comerce-demo-page", title: "E-comerce"},
+      { path: "/state-management/e-comerce-demo-page", title: "E-comerce"},
+    ],
+  },
+  {
+    title: "Final Exercises",
+    key: "final",
+    pages: [
+      { path: "/final/profile-card-demo-page", title: "Profile card" },
+      { path: "/final/todo-list-demo-page", title: "Todo list" },
+      { path: "/final/data-dashboard-demo-page", title: "Data dashboard"},
+      { path: "/final/component-catalog-demo-page", title: "Component catalog" },
+      { path: "/final/kanban-board-demo-page", title: "Kanban board" },
+      { path: "/final/interactive-classroom-demo-page", title: "Interactive classroom" },
     ],
   },
 ];

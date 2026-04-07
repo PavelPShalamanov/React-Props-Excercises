@@ -1,6 +1,6 @@
-import { ThemeProvider } from "../../context/ThemeContext";
-import { AuthProvider } from "../../context/AuthContext";
-import { LangProvider } from "../../context/LangContext";
+import { ThemeProvider } from "../../context/state-mamangement-exercise-contexts/ThemeContext";
+import { AuthProvider } from "../../context/state-mamangement-exercise-contexts/AuthContext";
+import { LangProvider } from "../../context/state-mamangement-exercise-contexts/LangContext";
 
 import Header from "../../components/state-management-exercises/dashboard-example/Header";
 import Sidebar from "../../components/state-management-exercises/dashboard-example/Sidebar";

@@ -1,4 +1,4 @@
-import { useProductStore } from "../../../store/EComerceStore";
+import { useProductStore } from "../../../store/state-mamangement-exercise-stores/EComerceStore";
 import ProductCard from "./ProductCard";
 import { useMemo } from "react";
 

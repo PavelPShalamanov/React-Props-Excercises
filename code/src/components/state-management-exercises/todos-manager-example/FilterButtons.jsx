@@ -1,4 +1,4 @@
-import { useTodoStore } from "../../../store/todoStore";
+import { useTodoStore } from "../../../store/state-mamangement-exercise-stores/todoStore";
 
 export default function FilterButtons() {
   const filter = useTodoStore((s) => s.filter);

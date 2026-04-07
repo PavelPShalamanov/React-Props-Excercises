@@ -1,4 +1,4 @@
-import { NotificationProvider } from "../../context/NotificationContext";
+import { NotificationProvider } from "../../context/state-mamangement-exercise-contexts/NotificationContext";
 import NotificationCount from "../../components/state-management-exercises/notifications-example/NotificationCount";
 import AddNotificationPanel from "../../components/state-management-exercises/notifications-example/AddNotificationPanel";
 import NotificationList from "../../components/state-management-exercises/notifications-example/NotificationList";

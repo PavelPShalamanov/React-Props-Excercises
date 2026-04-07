@@ -1,5 +1,5 @@
-import { useTheme } from "../../../context/EComerceThemeContext";
-import { useAuth } from "../../../context/EComerceAuthContext";
+import { useTheme } from "../../../context/state-mamangement-exercise-contexts/EComerceThemeContext";
+import { useAuth } from "../../../context/state-mamangement-exercise-contexts/EComerceAuthContext";
 
 export default function NavBar({ cartItemCount }) {
   const { theme, toggleTheme } = useTheme();

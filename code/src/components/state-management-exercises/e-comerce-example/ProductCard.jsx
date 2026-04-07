@@ -1,4 +1,4 @@
-import { useProductStore } from "../../../store/EComerceStore";
+import { useProductStore } from "../../../store/state-mamangement-exercise-stores/EComerceStore";
 
 export default function ProductCard({ product, onAddToCart }) {
   const toggleFavorite = useProductStore((s) => s.toggleFavorite);

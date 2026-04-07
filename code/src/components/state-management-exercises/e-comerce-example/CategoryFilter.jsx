@@ -1,4 +1,4 @@
-import { useProductStore } from "../../../store/EComerceStore";
+import { useProductStore } from "../../../store/state-mamangement-exercise-stores/EComerceStore";
 
 export default function CategoryFilter() {
   const { category, setCategory } = useProductStore();

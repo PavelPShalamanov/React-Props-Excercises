@@ -18,6 +18,13 @@ import DashboardDemoPage from "./pages/state-management-exercises/DashboardDemoP
 import TodosManagerDemoPage from "./pages/state-management-exercises/TodosManagerDemoPage";
 import EComerceDemoPage from "./pages/state-management-exercises/EComerceDemoPage";
 
+import ProfileCardDemoPage from "./pages/final-exercises/ProfileCardDemoPage";
+import TodoListDemoPage from "./pages/final-exercises/TodoListDemoPage";
+import DataDashboardDemoPage from "./pages/final-exercises/DataDashboardDemoPage";
+import ComponentCatalogDemoPage from "./pages/final-exercises/ComponentCatalogDemoPage";
+import KanbanBoardDemoPage from "./pages/final-exercises/KanbanBoardDemoPage";
+import InteractiveClassroomDemoPage from "./pages/final-exercises/InteractiveClassroomDemoPage";
+
 function App() {
   return (
     <Routes>
@@ -38,6 +45,13 @@ function App() {
         <Route path="state-management/dashboard-demo-page" element={<DashboardDemoPage />} />
         <Route path="state-management/todos-manager-demo-page" element={<TodosManagerDemoPage />} />
         <Route path="state-management/e-comerce-demo-page" element={<EComerceDemoPage />} />
+
+        <Route path="final/profile-card-demo-page" element={<ProfileCardDemoPage />} />
+        <Route path="final/todo-list-demo-page" element={<TodoListDemoPage />} />
+        <Route path="final/data-dashboard-demo-page" element={<DataDashboardDemoPage />} />
+        <Route path="final/component-catalog-demo-page" element={<ComponentCatalogDemoPage />} />
+        <Route path="final/kanban-board-demo-page" element={<KanbanBoardDemoPage />} />
+        <Route path="final/interactive-classroom-demo-page" element={<InteractiveClassroomDemoPage />} />
       </Route>
     </Routes>
   );

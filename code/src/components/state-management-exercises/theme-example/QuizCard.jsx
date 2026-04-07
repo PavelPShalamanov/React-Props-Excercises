@@ -1,4 +1,4 @@
-import { useTheme } from "../../../context/ThemeContext";
+import { useTheme } from "../../../context/state-mamangement-exercise-contexts/ThemeContext";
 
 export default function QuizCard({ title, questions }) {
   const { theme } = useTheme();
