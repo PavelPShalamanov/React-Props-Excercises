@@ -6,3 +6,4 @@ An excercise repo demonstrating Various types of frontend development principles
 
 - props
 - state management
+- final exercises
